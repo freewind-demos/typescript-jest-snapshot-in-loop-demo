@@ -1,7 +1,10 @@
-TypeScript Jest Demo
+TypeScript Jest Snapshot Demo
 ===========================
 
-使用typescript就需要在`jest.config.js`中使用`ts-jest`作为`preset`
+Jest的snapshot测试，在运行时，如果没有发现相应的snap文件（`test.ts.snap`），
+则会创建并将测试的值写成相应的数据放进去，供下次使用；如果发现有，则取出比较。
+
+这种做法感觉挺方便的，准备数据比较方便。
 
 ```
 npm install

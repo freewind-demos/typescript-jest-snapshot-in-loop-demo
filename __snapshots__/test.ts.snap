@@ -12,3 +12,5 @@ Array [
   4,
 ]
 `;
+
+exports[`function 1`] = `[Function]`;

@@ -14,3 +14,9 @@ Array [
 `;
 
 exports[`function 1`] = `[Function]`;
+
+exports[`snapshot in loop: aaa 1`] = `"aaa"`;
+
+exports[`snapshot in loop: bbb 1`] = `"bbb"`;
+
+exports[`snapshot in loop: ccc 1`] = `"ccc"`;

@@ -17,3 +17,10 @@ test('array', () => {
 test('function', () => {
   expect(hello).toMatchSnapshot();
 })
+
+test('snapshot in loop', () => {
+  const array = ['aaa', 'bbb', 'ccc'];
+  for (const item of array) {
+    expect(item).toMatchSnapshot(item);
+  }
+})
